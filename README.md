@@ -4,7 +4,7 @@ git clone https://github.com/christian-gustad/api_demo.git
 
 ```
 
-Du må fylle oprette en `.env`{:.shellscript} fil der du fyller ut verdiene som er gitt i `env_example`{:.shellscript}
+Du må fylle oprette en `.env` fil der du fyller ut verdiene som er gitt i `env_example`.
 
 Deretter kan du kjøre må du kjøre scriptet med kommandoen:
 ```shellscript
