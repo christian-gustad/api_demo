@@ -8,7 +8,7 @@ pip install fastapi # API bygge pakken
 pip install python-dotenv # For automatisk lasting av eviorment variabler
 pip install "uvicorn[standard]" # Denne burde komme med fastapi, men er greit å ha alikevel
 ```
-[API dokumentasjonen](https://fastapi.tiangolo.com/)
+
 
 ## Hvordan sette opp APIet
 For å laste ned repoet åpne opp kommandolinjen og skriv:
@@ -27,7 +27,7 @@ uvicorn main:app --reload
 ## Komponentene
 
 ### FastAPI
-
+[API dokumentasjonen](https://fastapi.tiangolo.com/) finner du her, men en [Tutorial](https://fastapi.tiangolo.com/tutorial/)
 ### PYODBC
 
 
