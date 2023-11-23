@@ -7,6 +7,7 @@ pip install pyodbc # Database koblingen
 pip install fastapi # API bygge pakken
 pip install python-dotenv # For automatisk lasting av eviorment variabler
 pip install "uvicorn[standard]" # Denne burde komme med fastapi, men er greit å ha alikevel
+pip install pydantic # Burdge også følge med fastapi og er for å annotere funksjoner og objekter
 ```
 
 
@@ -29,5 +30,5 @@ uvicorn main:app --reload
 ### FastAPI
 [API dokumentasjonen](https://fastapi.tiangolo.com/) finner du her, og [her tutorial](https://fastapi.tiangolo.com/tutorial/) som stegvis går igjennom funksjonaliteten. Vi begynner med å lage den enkleste tjenesten nemlig en `GET`.
 ### PYODBC
-
+PYODBC er databasekoblings verktøyet og dokumentasjonen finner dere [her](https://github.com/mkleehammer/pyodbc/wiki),
 

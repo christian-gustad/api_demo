@@ -1,6 +1,7 @@
 import pyodbc
 import os
 
+
 def get_connection_string():
     SERVER = os.environ["SERVER"]
     USERNAME = os.environ["USERNAME"]
@@ -21,6 +22,9 @@ def my_query(parameter):
     for row in rows:
         data.append([x for x in row])
     return data
-    
 
-
+def my_query_with_body(items):
+    string_parameter = items.get("string_parameter")
+    numeric_parameter = items.get("numeric_parameter")
+    string = f"The string parameter passed was {string_parameter} \n The numeric parameter passed was {numeric_parameter}"
+    return string
