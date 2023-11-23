@@ -27,7 +27,7 @@ uvicorn main:app --reload
 ## Komponentene
 
 ### FastAPI
-[API dokumentasjonen](https://fastapi.tiangolo.com/) finner du her, og [her tutorial](https://fastapi.tiangolo.com/tutorial/) som stegvis går igjennom funksjonaliteten. Vi begynner med å lage den enkleste tjenesten nemlig en 
+[API dokumentasjonen](https://fastapi.tiangolo.com/) finner du her, og [her tutorial](https://fastapi.tiangolo.com/tutorial/) som stegvis går igjennom funksjonaliteten. Vi begynner med å lage den enkleste tjenesten nemlig en `GET`.
 ### PYODBC
 
 
