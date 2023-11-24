@@ -32,3 +32,9 @@ uvicorn main:app --reload
 ### PYODBC
 PYODBC er databasekoblings verktøyet og dokumentasjonen finner dere [her](https://github.com/mkleehammer/pyodbc/wiki),
 
+## Posting request with CURL
+
+```shellscript
+curl -X POST http://127.0.0.1:8000/querywithbody/
+   -d '{"string_parameter": "test", "numeric_parameter": 12345}'  
+```

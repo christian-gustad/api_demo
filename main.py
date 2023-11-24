@@ -31,7 +31,7 @@ async def query_with_paramter(parameter: str):
     return return_value
 
 
-@app.post("/querywithbody/{parameter}")
+@app.post("/querywithbody/")
 async def query_with_body(items: Item):
     """
     This is a request against the endpoint where we refer to the supplied body/payload
